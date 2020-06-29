@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  // transition: all 0.3s linear;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.night {
+  .overlay {
+    background-image: linear-gradient(to right, #15202bd9 0%, #15202b 100%),
+      url(../../assets/images/svg/night.svg);
+  }
+}
+.sun {
+  .overlay {
+    background-image: linear-gradient(to right, #ffffffa3 0%, #ffffff 100%),
+      url(../../assets/images/svg/sun.svg);
+  }
+}
+.snow {
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(195, 219, 251, 0.32) 0%,
+        rgb(205, 225, 252) 100%
+      ),
+      url(../../assets/images/svg/snow.svg);
+  }
+}
+.cloudy {
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(233, 225, 201, 0.57) 0%,
+        rgb(200, 215, 228) 100%
+      ),
+      url(../../assets/images/svg/cloudy.svg);
+  }
+}
+
+.site-modes {
+  display: flex;
+  svg {
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+  }
+  span {
+    padding: 5px;
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  padding: 0;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+
+  &__container {
+    margin: 0 auto;
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+  }
+
+  .heading {
+    padding: 40px 10px;
+    margin: 0;
+    flex: 1;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
