@@ -11,10 +11,10 @@ const Header = () => {
         <h1 className="heading">{my.title}</h1>
         <SwitchMode />
       </div>
-      <div className="header__links">
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
+      {/* <div className="header__links">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div> */}
     </header>
   );
 };

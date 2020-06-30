@@ -1,18 +1,20 @@
 .header {
   padding: 0;
-  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 
   &__container {
-    margin: 0 auto;
-    max-width: 750px;
-    display: flex;
-    align-items: center;
+    margin: 0 auto 20px;
+    max-width: 768px;
+    text-align: center;
   }
 
   .heading {
-    padding: 40px 10px;
+    padding: 32px 10px;
     margin: 0;
     flex: 1;
+    background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
   }
 
   &__links {
@@ -24,6 +26,19 @@
       font-size: 18px;
       font-weight: bold;
       text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    &__container {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .heading {
+      text-align: left;
     }
   }
 }

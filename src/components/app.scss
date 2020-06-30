@@ -22,13 +22,16 @@ body {
     --slightlyLighterText: hsla(0, 0%, 100%, 0.6);
     --textLink: #1da1f2;
   }
-}
-
-h1 {
-  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 60px;
+  &.snow {
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #c8dfff 100%);
+  }
+  &.cloudy {
+    background: linear-gradient(
+      to right,
+      rgba(233, 225, 201, 0.57) 0%,
+      rgb(200, 215, 228) 100%
+    );
+  }
 }
 
 .container {
