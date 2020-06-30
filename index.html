@@ -1,519 +1,115 @@
-<html>
-   <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167534205-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-167534205-1');
-      </script>
-
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <title>Rushi's Resume</title>
-      <style type="text/css">/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-         /**
-         * 1. Set default font family to sans-serif.
-         * 2. Prevent iOS and IE text size adjust after device orientation change,
-         *    without disabling user zoom.
-         */
-         html {
-         font-family: sans-serif; /* 1 */
-         -ms-text-size-adjust: 100%; /* 2 */
-         -webkit-text-size-adjust: 100%; /* 2 */
-         }
-         /**
-         * Remove default margin.
-         */
-         body {
-         margin: 0;
-         }
-         /* HTML5 display definitions
-         ========================================================================== */
-         /**
-         * Correct `block` display not defined for any HTML5 element in IE 8/9.
-         * Correct `block` display not defined for `details` or `summary` in IE 10/11
-         * and Firefox.
-         * Correct `block` display not defined for `main` in IE 11.
-         */
-         article,
-         aside,
-         details,
-         figcaption,
-         figure,
-         footer,
-         header,
-         hgroup,
-         main,
-         menu,
-         nav,
-         section,
-         summary {
-         display: block;
-         }
-         /**
-         * 1. Correct `inline-block` display not defined in IE 8/9.
-         * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
-         */
-         audio,
-         canvas,
-         progress,
-         video {
-         display: inline-block; /* 1 */
-         vertical-align: baseline; /* 2 */
-         }
-         /**
-         * Prevent modern browsers from displaying `audio` without controls.
-         * Remove excess height in iOS 5 devices.
-         */
-         audio:not([controls]) {
-         display: none;
-         height: 0;
-         }
-         /**
-         * Address `[hidden]` styling not present in IE 8/9/10.
-         * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
-         */
-         [hidden],
-         template {
-         display: none;
-         }
-         /* Links
-         ========================================================================== */
-         /**
-         * Remove the gray background color from active links in IE 10.
-         */
-         a {
-         background-color: transparent;
-         }
-         /**
-         * Improve readability of focused elements when they are also in an
-         * active/hover state.
-         */
-         a:active,
-         a:hover {
-         outline: 0;
-         }
-         /* Text-level semantics
-         ========================================================================== */
-         /**
-         * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
-         */
-         abbr[title] {
-         border-bottom: 1px dotted;
-         }
-         /**
-         * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
-         */
-         b,
-         strong {
-         font-weight: bold;
-         }
-         /**
-         * Address styling not present in Safari and Chrome.
-         */
-         dfn {
-         font-style: italic;
-         }
-         /**
-         * Address variable `h1` font-size and margin within `section` and `article`
-         * contexts in Firefox 4+, Safari, and Chrome.
-         */
-         h1 {
-         font-size: 2em;
-         margin: 0.67em 0;
-         }
-         /**
-         * Address styling not present in IE 8/9.
-         */
-         mark {
-         background: #ff0;
-         color: #000;
-         }
-         /**
-         * Address inconsistent and variable font size in all browsers.
-         */
-         small {
-         font-size: 80%;
-         }
-         /**
-         * Prevent `sub` and `sup` affecting `line-height` in all browsers.
-         */
-         sub,
-         sup {
-         font-size: 75%;
-         line-height: 0;
-         position: relative;
-         vertical-align: baseline;
-         }
-         sup {
-         top: -0.5em;
-         }
-         sub {
-         bottom: -0.25em;
-         }
-         /* Embedded content
-         ========================================================================== */
-         /**
-         * Remove border when inside `a` element in IE 8/9/10.
-         */
-         img {
-         border: 0;
-         }
-         /**
-         * Correct overflow not hidden in IE 9/10/11.
-         */
-         svg:not(:root) {
-         overflow: hidden;
-         }
-         /* Grouping content
-         ========================================================================== */
-         /**
-         * Address margin not present in IE 8/9 and Safari.
-         */
-         figure {
-         margin: 1em 40px;
-         }
-         /**
-         * Address differences between Firefox and other browsers.
-         */
-         hr {
-         box-sizing: content-box;
-         height: 0;
-         }
-         /**
-         * Contain overflow in all browsers.
-         */
-         pre {
-         overflow: auto;
-         }
-         /**
-         * Address odd `em`-unit font size rendering in all browsers.
-         */
-         code,
-         kbd,
-         pre,
-         samp {
-         font-family: monospace, monospace;
-         font-size: 1em;
-         }
-         /* Forms
-         ========================================================================== */
-         /**
-         * Known limitation: by default, Chrome and Safari on OS X allow very limited
-         * styling of `select`, unless a `border` property is set.
-         */
-         /**
-         * 1. Correct color not being inherited.
-         *    Known issue: affects color of disabled elements.
-         * 2. Correct font properties not being inherited.
-         * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
-         */
-         button,
-         input,
-         optgroup,
-         select,
-         textarea {
-         color: inherit; /* 1 */
-         font: inherit; /* 2 */
-         margin: 0; /* 3 */
-         }
-         /**
-         * Address `overflow` set to `hidden` in IE 8/9/10/11.
-         */
-         button {
-         overflow: visible;
-         }
-         /**
-         * Address inconsistent `text-transform` inheritance for `button` and `select`.
-         * All other form control elements do not inherit `text-transform` values.
-         * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
-         * Correct `select` style inheritance in Firefox.
-         */
-         button,
-         select {
-         text-transform: none;
-         }
-         /**
-         * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
-         *    and `video` controls.
-         * 2. Correct inability to style clickable `input` types in iOS.
-         * 3. Improve usability and consistency of cursor style between image-type
-         *    `input` and others.
-         */
-         button,
-         html input[type="button"], /* 1 */
-         input[type="reset"],
-         input[type="submit"] {
-         -webkit-appearance: button; /* 2 */
-         cursor: pointer; /* 3 */
-         }
-         /**
-         * Re-set default cursor for disabled elements.
-         */
-         button[disabled],
-         html input[disabled] {
-         cursor: default;
-         }
-         /**
-         * Remove inner padding and border in Firefox 4+.
-         */
-         button::-moz-focus-inner,
-         input::-moz-focus-inner {
-         border: 0;
-         padding: 0;
-         }
-         /**
-         * Address Firefox 4+ setting `line-height` on `input` using `!important` in
-         * the UA stylesheet.
-         */
-         input {
-         line-height: normal;
-         }
-         /**
-         * It's recommended that you don't attempt to style these elements.
-         * Firefox's implementation doesn't respect box-sizing, padding, or width.
-         *
-         * 1. Address box sizing set to `content-box` in IE 8/9/10.
-         * 2. Remove excess padding in IE 8/9/10.
-         */
-         input[type="checkbox"],
-         input[type="radio"] {
-         box-sizing: border-box; /* 1 */
-         padding: 0; /* 2 */
-         }
-         /**
-         * Fix the cursor style for Chrome's increment/decrement buttons. For certain
-         * `font-size` values of the `input`, it causes the cursor style of the
-         * decrement button to change from `default` to `text`.
-         */
-         input[type="number"]::-webkit-inner-spin-button,
-         input[type="number"]::-webkit-outer-spin-button {
-         height: auto;
-         }
-         /**
-         * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
-         * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
-         */
-         input[type="search"] {
-         -webkit-appearance: textfield; /* 1 */
-         box-sizing: content-box; /* 2 */
-         }
-         /**
-         * Remove inner padding and search cancel button in Safari and Chrome on OS X.
-         * Safari (but not Chrome) clips the cancel button when the search input has
-         * padding (and `textfield` appearance).
-         */
-         input[type="search"]::-webkit-search-cancel-button,
-         input[type="search"]::-webkit-search-decoration {
-         -webkit-appearance: none;
-         }
-         /**
-         * Define consistent border, margin, and padding.
-         */
-         fieldset {
-         border: 1px solid #c0c0c0;
-         margin: 0 2px;
-         padding: 0.35em 0.625em 0.75em;
-         }
-         /**
-         * 1. Correct `color` not being inherited in IE 8/9/10/11.
-         * 2. Remove padding so people aren't caught out if they zero out fieldsets.
-         */
-         legend {
-         border: 0; /* 1 */
-         padding: 0; /* 2 */
-         }
-         /**
-         * Remove default vertical scrollbar in IE 8/9/10/11.
-         */
-         textarea {
-         overflow: auto;
-         }
-         /**
-         * Don't inherit the `font-weight` (applied by a rule above).
-         * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
-         */
-         optgroup {
-         font-weight: bold;
-         }
-         /* Tables
-         ========================================================================== */
-         /**
-         * Remove most spacing between table cells.
-         */
-         table {
-         border-collapse: collapse;
-         border-spacing: 0;
-         }
-         td,
-         th {
-         padding: 0;
-         }
-      </style>
-      <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);</style>
-      <style type="text/css">/* apply a natural box layout model to all elements, but allowing components to change */
-         html {
-         box-sizing: border-box;
-         color: rgba(78, 78, 78 , 1);
-         font-weight: 300;
-         }
-         *, *:before, *:after {
-         box-sizing: inherit;
-         }
-         h1, h2, h3, h4, h5, h6 {
-         margin: 0.25rem 0;
-         }
-         h1 {
-         font-size: 1.5rem;
-         }
-         h2 {
-         font-size: 1.25rem;
-         }
-         h3 {
-         font-size: 1.0rem;
-         }
-         b {
-         color: rgba(21, 44, 85, 1);
-         }
-         a {
-         color: rgba(21, 44, 85, 1);
-         }
-      </style>
-      <style></style>
-   </head>
-   <body>
-      <div id="root">
-         <div style="width:1000px;height:1294.1176470588236px;margin:0 auto;font-family:'Open Sans', sans-serif;display:flex;flex-direction:row;flex-wrap:wrap;" data-reactid=".0">
-            <section style="padding:16px 0 1px 0;flex:1 1 auto;font-size:1.6rem;margin-bottom:-0.4em;height:9rem;" data-reactid=".0.$=10">
-               <h1 style="color:rgb(21, 44, 85);display:block;font-size:3.4rem;" data-reactid=".0.$=10.0"><span style="display:inline-block;" data-reactid=".0.$=10.0.0">RUSHI</span><span style="display:inline-block;" data-reactid=".0.$=10.0.1">&nbsp;</span><span style="display:inline-block;" data-reactid=".0.$=10.0.2">JAGANI</span></h1>
-               <span style="font-size:1.2rem;display:block;margin-left:5px;margin-top:-6px;color:rgb(77, 100, 141);" data-reactid=".0.$=10.1"><span data-reactid=".0.$=10.1.0"></span><span data-reactid=".0.$=10.1.1"> </span><span data-reactid=".0.$=10.1.2">Software Engineer</span><span data-reactid=".0.$=10.1.3"> | </span><a href="https://rushijagani.github.io/" style="padding:0;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$=10.1.4">https://rushijagani.github.io/</a></span>
-            </section>
-            <div style="display:flex;" data-reactid=".0.$/=11">
-               <section style="padding-right:1.25rem;" data-reactid=".0.$/=11.$=10">
-                  <h1 style="margin-bottom:0.6rem;color:rgba(21, 44, 85, 1);padding:0.25rem;border-bottom:1px solid rgba(21, 44, 85, 1);" data-reactid=".0.$/=11.$=10.0">+ WORK EXPERIENCE</h1>
-                  <div data-reactid=".0.$/=11.$=10.1">
-                     <div data-reactid=".0.$/=11.$=10.1.$0">
-                        <div style="display:flex;justify-content:space-between;align-items:center;padding-right:0.75rem;padding-left:0.5rem;" data-reactid=".0.$/=11.$=10.1.$0.0">
-                           <div style="font-size:1.25rem;font-weight:bold;color:rgba(77, 100, 141, 1);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$0.0.0">
-                              <span data-reactid=".0.$/=11.$=10.1.$0.0.0.0">Cybage Software Pvt. Ltd.</span>
-                              <div style="display:inline-block;font-size:1rem;color:rgba(78, 78, 78 , 1);padding:0.25rem;font-weight:300;" data-reactid=".0.$/=11.$=10.1.$0.0.0.1">Software Engineer</div>
-                           </div>
-                           <div style="font-size:0.9rem;color:rgba(77, 100, 141, 0.75);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$0.0.1">Nov-2018 To May-2020 | Pune, IN</div>
-                        </div>
-                        <section style="margin-top:-0.8rem;margin-bottom:-0.4rem;padding:0.025rem 1.2rem;" data-reactid=".0.$/=11.$=10.1.$0.1">
-                           <ul data-reactid=".0.$/=11.$=10.1.$0.1.0">
-                              <li data-reactid=".0.$/=11.$=10.1.$0.1.0.$0">Strong proficiency in HTML5, CSS3, JavaScript, including DOM manipulation, the JavaScript object model and the latest ECMAScript features</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$0.1.0.$1">Extensive experience in UX/UI developing web applications, and Single Page Application(SPA) using HTML5, CSS3, ReactJs, JavaScript, jQuery, AJAX, JSON, Redux Thunk</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$0.1.0.$2">Experience of using CSS pre-processors (Less/Sass)</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$0.1.0.$3">Experience of using JavaScript build tools (Grunt/Gulp/Webpack)</li>
-                           </ul>
-                        </section>
-                     </div>
-                     <div data-reactid=".0.$/=11.$=10.1.$1">
-                        <div style="display:flex;justify-content:space-between;align-items:center;padding-right:0.75rem;padding-left:0.5rem;" data-reactid=".0.$/=11.$=10.1.$1.0">
-                           <div style="font-size:1.25rem;font-weight:bold;color:rgba(77, 100, 141, 1);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$1.0.0">
-                              <span data-reactid=".0.$/=11.$=10.1.$1.0.0.0">Brainstorm Force</span>
-                              <div style="display:inline-block;font-size:1rem;color:rgba(78, 78, 78 , 1);padding:0.25rem;font-weight:300;" data-reactid=".0.$/=11.$=10.1.$1.0.0.1">Software Developer</div>
-                           </div>
-                           <div style="font-size:0.9rem;color:rgba(77, 100, 141, 0.75);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$1.0.1">Nov-2016 To Nov-2018 | Pune, IN</div>
-                        </div>
-                        <section style="margin-top:-0.8rem;margin-bottom:-0.4rem;padding:0.025rem 1.2rem;" data-reactid=".0.$/=11.$=10.1.$1.1">
-                           <ul data-reactid=".0.$/=11.$=10.1.$1.1.0">
-                              <li data-reactid=".0.$/=11.$=10.1.$1.1.0.$0">Translated designs UX/UI wireframes and mockups into responsive, interactive features, using HTML/CSS and JavaScript</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$1.1.0.$1">Developed Open Source CMS WordPress Plugins and Theme by utilizing HTML5, CSS3, JavaScript, jQuery, SASS, NPM, Grunt and Git</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$1.1.0.$2">Executes full-stack website launches specializing in front-end features, browser manipulation, and cross-browser compatibility</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$1.1.0.$3">Developed and maintained critical components of e-commerce website, including shopping cart, quick view, and checkout pages</li>
-                           </ul>
-                        </section>
-                     </div>
-                     <div data-reactid=".0.$/=11.$=10.1.$2">
-                        <div style="display:flex;justify-content:space-between;align-items:center;padding-right:0.75rem;padding-left:0.5rem;" data-reactid=".0.$/=11.$=10.1.$2.0">
-                           <div style="font-size:1.25rem;font-weight:bold;color:rgba(77, 100, 141, 1);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$2.0.0">
-                              <span data-reactid=".0.$/=11.$=10.1.$2.0.0.0">Bee Logical Software Solutions</span>
-                              <div style="display:inline-block;font-size:1rem;color:rgba(78, 78, 78 , 1);padding:0.25rem;font-weight:300;" data-reactid=".0.$/=11.$=10.1.$2.0.0.1">Software Engineer</div>
-                           </div>
-                           <div style="font-size:0.9rem;color:rgba(77, 100, 141, 0.75);padding:0.25rem;" data-reactid=".0.$/=11.$=10.1.$2.0.1">Mar-2014 To Oct-2016 | Pune, IN</div>
-                        </div>
-                        <section style="margin-top:-0.8rem;margin-bottom:-0.4rem;padding:0.025rem 1.2rem;" data-reactid=".0.$/=11.$=10.1.$2.1">
-                           <ul data-reactid=".0.$/=11.$=10.1.$2.1.0">
-                              <li data-reactid=".0.$/=11.$=10.1.$2.1.0.$0">Developed a web application in Laravel framework with PHP as a scripting language and Angular Js as a frontend. Responsibility included designing of database, writing web services, creating admin portal in PHP, developing the responsive dynamic UI</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$2.1.0.$1">Developed a web admin portal for android app. Portal was in YII2 Framework. Was part of database designing, responsive UI development, portal functionalities</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$2.1.0.$2">Executes a cart system without any framework. Made extensive use of HTML5 local storage functionality</li>
-                              <li data-reactid=".0.$/=11.$=10.1.$2.1.0.$3">Developed a Mobile Application using Phonegap Framework – ChemistPIS (Android)</li>
-                           </ul>
-                        </section>
-                     </div>
-                  </div>
-                  <section style="margin-top:-0.8rem;margin-bottom:-0.4rem;padding:0.025rem 1.2rem;" data-reactid=".0.$/=11.$=10.3:$0">
-                     <div style="margin:1rem 0 0 0.2rem;" data-reactid=".0.$/=11.$=10.3:$0.$0">
-                        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:0.4rem;" data-reactid=".0.$/=11.$=10.3:$0.$0.0">
-                           <div style="font-size:1rem;font-weight:bold;color:rgb(77, 100, 141);" data-reactid=".0.$/=11.$=10.3:$0.$0.0.0"></div>
-                           <div style="font-size:0.75rem;color:rgba(77, 100, 141, 0.75);" data-reactid=".0.$/=11.$=10.3:$0.$0.0.1"></div>
-                        </div>
-                        <ul style="margin:0;" data-reactid=".0.$/=11.$=10.3:$0.$0.1"></ul>
-                     </div>
-                  </section>
-               </section>
-               <section style="flex:1 0 auto;width:30%;background-color:rgba(118,136,169,0.125);display:flex;flex-direction:column;justify-content:space-between;padding:0 1.2rem 1.2rem 1.2rem;color:rgb(21, 44, 85);" data-reactid=".0.$/=11.$=11">
-                  <div data-reactid=".0.$/=11.$=11.0">
-                     <section style="margin-bottom:0.2rem;" data-reactid=".0.$/=11.$=11.0.0">
-                        <h1 style="text-align:left;border-bottom:1px solid rgb(21, 44, 85);padding:0.25rem;margin-bottom:0.6rem;" data-reactid=".0.$/=11.$=11.0.0.0">+ CONTACT</h1>
-                        <div style="display:flex;justify-content:flex-start;margin:4px;" data-reactid=".0.$/=11.$=11.0.0.1:$0"><i class="fa fa-envelope" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:1.6rem;height:1.6rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);" data-reactid=".0.$/=11.$=11.0.0.1:$0.0"></i><a href="mailto:rushi.jagani@ymail.com" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$/=11.$=11.0.0.1:$0.1">rushi.jagani@ymail.com</a></div>
-                        <div style="display:flex;justify-content:flex-start;margin:4px;" data-reactid=".0.$/=11.$=11.0.0.1:$1"><i class="fa fa-github" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:1.6rem;height:1.6rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);" data-reactid=".0.$/=11.$=11.0.0.1:$1.0"></i><a href="https://github.com/rushijagani" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$/=11.$=11.0.0.1:$1.1">github.com/rushijagani</a></div>
-                        <div style="display:flex;justify-content:flex-start;margin:4px;" data-reactid=".0.$/=11.$=11.0.0.1:$2"><i class="fa fa-twitter" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:1.6rem;height:1.6rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);" data-reactid=".0.$/=11.$=11.0.0.1:$2.0"></i><a href="https://https://twitter.com/rushijagani_rj" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$/=11.$=11.0.0.1:$2.1">twitter.com/rushijagani_rj</a></div>
-                     </section>
-                     <section style="margin:0.2rem 0 0.6rem 0;" data-reactid=".0.$/=11.$=11.0.1">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.0.1.0">+ LANGUAGES</h1>
-                        <div data-reactid=".0.$/=11.$=11.0.1.1">
-                           <div style="display:flex;justify-content:flex-start;" data-reactid=".0.$/=11.$=11.0.1.1.$0">
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$0.0"></div>
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$0.1">JavaScript (ES2015)</div>
-                           </div>
-                           <div style="display:flex;justify-content:flex-start;" data-reactid=".0.$/=11.$=11.0.1.1.$1">
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$1.0"></div>
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$1.1">HTML5/CSS3</div>
-                           </div>
-                           <div style="display:flex;justify-content:flex-start;" data-reactid=".0.$/=11.$=11.0.1.1.$2">
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$2.0"></div>
-                              <div data-reactid=".0.$/=11.$=11.0.1.1.$2.1">PHP</div>
-                           </div>
-                        </div>
-                     </section>
-                     <section style="margin:0.4rem 0;" data-reactid=".0.$/=11.$=11.0.2">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.0.2.0"><span data-reactid=".0.$/=11.$=11.0.2.0.0"> </span><span data-reactid=".0.$/=11.$=11.0.2.0.1">+ FRAMEWORKS</span><span data-reactid=".0.$/=11.$=11.0.2.0.2"> </span></h1>
-                        <div style="break-word:normal;text-align:left;" data-reactid=".0.$/=11.$=11.0.2.1"><span data-reactid=".0.$/=11.$=11.0.2.1.$0">React, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$1">Redux, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$2">Node, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$3">jQuery, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$4">Sass/Less, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$5">Phonegap, </span><span data-reactid=".0.$/=11.$=11.0.2.1.$6">WordPress</span></div>
-                     </section>
-                     <section style="margin:0.4rem 0;" data-reactid=".0.$/=11.$=11.0.3">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.0.3.0"><span data-reactid=".0.$/=11.$=11.0.3.0.0"> </span><span data-reactid=".0.$/=11.$=11.0.3.0.1">+ DATABASES</span><span data-reactid=".0.$/=11.$=11.0.3.0.2"> </span></h1>
-                        <div style="break-word:normal;text-align:left;" data-reactid=".0.$/=11.$=11.0.3.1"><span data-reactid=".0.$/=11.$=11.0.3.1.$0">MySQL</span></div>
-                     </section>
-                     <section style="margin:0.4rem 0;" data-reactid=".0.$/=11.$=11.0.4">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.0.4.0"><span data-reactid=".0.$/=11.$=11.0.4.0.0"> </span><span data-reactid=".0.$/=11.$=11.0.4.0.1">+ TOOLS</span><span data-reactid=".0.$/=11.$=11.0.4.0.2"> </span></h1>
-                        <div style="break-word:normal;text-align:left;" data-reactid=".0.$/=11.$=11.0.4.1"><span data-reactid=".0.$/=11.$=11.0.4.1.$0">Firebase, </span><span data-reactid=".0.$/=11.$=11.0.4.1.$1">Git/SVN, </span><span data-reactid=".0.$/=11.$=11.0.4.1.$2">Webpack, </span><span data-reactid=".0.$/=11.$=11.0.4.1.$3">Gulp/Grunt</span></div>
-                     </section>
-                     <section style="margin:0.4rem 0;" data-reactid=".0.$/=11.$=11.0.5">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.0.5.0"><span data-reactid=".0.$/=11.$=11.0.5.0.0"> </span><span data-reactid=".0.$/=11.$=11.0.5.0.1">+ INTERESTS</span><span data-reactid=".0.$/=11.$=11.0.5.0.2"> </span></h1>
-                        <div style="break-word:normal;text-align:left;" data-reactid=".0.$/=11.$=11.0.5.1"><span data-reactid=".0.$/=11.$=11.0.5.1.$0">I <b>learn</b> about web and startups.<br></span><span data-reactid=".0.$/=11.$=11.0.5.1.$1">I <b>love</b> movies, fitness, and traveling.<br></span><span data-reactid=".0.$/=11.$=11.0.5.1.$2">I <b>hate</b> doing planks.</span></div>
-                     </section>
-                  </div>
-                  <div data-reactid=".0.$/=11.$=11.1">
-                     <section style="margin:0.4rem 0 0 0;" data-reactid=".0.$/=11.$=11.1.0">
-                        <h1 style="padding-top:0.25rem;padding-bottom:0.25rem;border-bottom:1px solid rgb(21, 44, 85);margin-bottom:0.6rem;text-align:left;" data-reactid=".0.$/=11.$=11.1.0.0">+ EDUCATION</h1>
-                        <div style="text-align:left;font-weight:bold;" data-reactid=".0.$/=11.$=11.1.0.1">Rajasthan Technical University</div>
-                        <div data-reactid=".0.$/=11.$=11.1.0.2">Bachelor of Computer Science &amp; Engineering</div>
-                        <div style="text-align:left;" data-reactid=".0.$/=11.$=11.1.0.3">2008 - 2012</div>
-                     </section>
-                  </div>
-               </section>
-            </div>
-            <section style="flex:1 1 auto;margin-top:1rem;padding:1rem 1rem 0 1rem;border-top:1px solid black;height:3rem;display:flex;justify-content:space-between;" data-reactid=".0.$=12">
-               <div data-reactid=".0.$=12.$Website"><i class="fa fa-fire" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:2.4rem;height:2.4rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);border:1px solid rgba(77, 100, 141, 1);border-radius:60px;padding:4px;" data-reactid=".0.$=12.$Website.0"></i><a href="https://rushijagani.github.io/" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$=12.$Website.1">https://rushijagani.github.io/</a></div>
-               <div data-reactid=".0.$=12.$Blog"><i class="fa fa-book" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:2.4rem;height:2.4rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);border:1px solid rgba(77, 100, 141, 1);border-radius:60px;padding:4px;" data-reactid=".0.$=12.$Blog.0"></i><a href="https://rushijagani.github.io/" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$=12.$Blog.1">blog</a></div>
-               <div data-reactid=".0.$=12.$Linkedin"><i class="fa fa-linkedin" style="display:inline-block;font-size:1.6rem;line-height:1.6rem;width:2.4rem;height:2.4rem;text-align:center;vertical-align:middle;color:rgba(77, 100, 141, 1);border:1px solid rgba(77, 100, 141, 1);border-radius:60px;padding:4px;" data-reactid=".0.$=12.$Linkedin.0"></i><a href="https://www.linkedin.com/in/rushi-jagani-99a37241/" style="padding:0 0 0 0.5rem;text-decoration:none;color:rgb(77, 100, 141);" data-reactid=".0.$=12.$Linkedin.1">linkedin.com/in/rushijagani</a></div>
-            </section>
-         </div>
-      </div>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="I like making fun, interactive things with code. I mostly work with UI technologies HTML, CSS & JavaScript (React.js), but have also experience with PHP (WordPress)."
+    />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>
+      Home | Front End Specialist | Rushi Jagani | JavaScript, React.js
+    </title>
+    <link href="/static/css/main.0ef8c052.chunk.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      !(function (e) {
+        function t(t) {
+          for (
+            var n, i, l = t[0], f = t[1], a = t[2], c = 0, s = [];
+            c < l.length;
+            c++
+          )
+            (i = l[c]),
+              Object.prototype.hasOwnProperty.call(o, i) &&
+                o[i] &&
+                s.push(o[i][0]),
+              (o[i] = 0);
+          for (n in f)
+            Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
+          for (p && p(t); s.length; ) s.shift()();
+          return u.push.apply(u, a || []), r();
+        }
+        function r() {
+          for (var e, t = 0; t < u.length; t++) {
+            for (var r = u[t], n = !0, l = 1; l < r.length; l++) {
+              var f = r[l];
+              0 !== o[f] && (n = !1);
+            }
+            n && (u.splice(t--, 1), (e = i((i.s = r[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function i(t) {
+          if (n[t]) return n[t].exports;
+          var r = (n[t] = { i: t, l: !1, exports: {} });
+          return e[t].call(r.exports, r, r.exports, i), (r.l = !0), r.exports;
+        }
+        (i.m = e),
+          (i.c = n),
+          (i.d = function (e, t, r) {
+            i.o(e, t) ||
+              Object.defineProperty(e, t, { enumerable: !0, get: r });
+          }),
+          (i.r = function (e) {
+            'undefined' != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
+          }),
+          (i.t = function (e, t) {
+            if ((1 & t && (e = i(e)), 8 & t)) return e;
+            if (4 & t && 'object' == typeof e && e && e.__esModule) return e;
+            var r = Object.create(null);
+            if (
+              (i.r(r),
+              Object.defineProperty(r, 'default', { enumerable: !0, value: e }),
+              2 & t && 'string' != typeof e)
+            )
+              for (var n in e)
+                i.d(
+                  r,
+                  n,
+                  function (t) {
+                    return e[t];
+                  }.bind(null, n)
+                );
+            return r;
+          }),
+          (i.n = function (e) {
+            var t =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return i.d(t, 'a', t), t;
+          }),
+          (i.o = function (e, t) {
+            return Object.prototype.hasOwnProperty.call(e, t);
+          }),
+          (i.p = '/');
+        var l = (this.webpackJsonpmysite = this.webpackJsonpmysite || []),
+          f = l.push.bind(l);
+        (l.push = t), (l = l.slice());
+        for (var a = 0; a < l.length; a++) t(l[a]);
+        var p = f;
+        r();
+      })([]);
+    </script>
+    <script src="/static/js/2.8b8ba2f2.chunk.js"></script>
+    <script src="/static/js/main.3a8ebcea.chunk.js"></script>
+  </body>
 </html>
