@@ -1,0 +1,47 @@
+body {
+  --bg: #fff;
+  --secondaryBg: #fff;
+  --secondaryBgHeavy: #fff;
+  --textNormal: #222;
+  --lightText: rgba(0, 0, 0, 0.45);
+  --slightlyLighterText: rgba(0, 0, 0, 0.8);
+  --lighterText: rgba(0, 0, 0, 0.35);
+  --textLink: #316d9c;
+  color: var(--textNormal);
+  background-color: var(--bg);
+  transition: background 0.3s linear;
+
+  &.night {
+    -webkit-font-smoothing: antialiased;
+    --bg: #15202b;
+    --secondaryBg: #243447;
+    --secondaryBgHeavy: #eee;
+    --textNormal: hsla(0, 0%, 100%, 0.88);
+    --lightText: hsla(0, 0%, 100%, 0.5);
+    --lighterText: hsla(0, 0%, 100%, 0.35);
+    --slightlyLighterText: hsla(0, 0%, 100%, 0.6);
+    --textLink: #1da1f2;
+  }
+  &.snow {
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #c8dfff 100%);
+  }
+  &.cloudy {
+    background: linear-gradient(
+      to right,
+      rgba(233, 225, 201, 0.57) 0%,
+      rgb(200, 215, 228) 100%
+    );
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--textLink);
+}

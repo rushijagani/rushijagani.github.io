@@ -1,0 +1,60 @@
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  z-index: -1;
+  opacity: 0.3;
+  transition: all 0.3s linear;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.night {
+  .overlay {
+    background-image: url(../../assets/images/svg/night.svg);
+  }
+}
+.sun {
+  .overlay {
+    background-image: url(../../assets/images/svg/sun.svg);
+  }
+}
+.snow {
+  .overlay {
+    background-image: url(../../assets/images/svg/snow.svg);
+  }
+}
+.cloudy {
+  .overlay {
+    background-image: url(../../assets/images/svg/cloudy.svg);
+  }
+}
+
+.site-modes {
+  display: flex;
+  justify-content: center;
+  svg {
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+  }
+  span {
+    padding: 5px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .overlay {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .site-modes {
+  }
+}

@@ -1,0 +1,45 @@
+.content {
+  &__container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  &__role {
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to right, #30cfd0 0%, #128084 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__skills-wrap {
+    display: block;
+    margin-top: 20px;
+    svg {
+      max-width: 100%;
+      max-height: 180px;
+      padding: 0 5px;
+      margin: 15px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    &__container {
+      text-align: left;
+    }
+    &__skills-wrap {
+      display: flex;
+      svg {
+        margin: 0;
+      }
+    }
+  }
+}

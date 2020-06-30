@@ -1,0 +1,44 @@
+.header {
+  padding: 0;
+
+  &__container {
+    margin: 0 auto 20px;
+    max-width: 768px;
+    text-align: center;
+  }
+
+  .heading {
+    padding: 32px 10px;
+    margin: 0;
+    flex: 1;
+    background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    &__container {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .heading {
+      text-align: left;
+    }
+  }
+}
