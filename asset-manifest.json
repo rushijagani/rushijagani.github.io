@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ef8c052.chunk.css",
+    "main.js": "/static/js/main.3a8ebcea.chunk.js",
+    "main.js.map": "/static/js/main.3a8ebcea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.851c6293.js",
+    "runtime-main.js.map": "/static/js/runtime-main.851c6293.js.map",
+    "static/js/2.8b8ba2f2.chunk.js": "/static/js/2.8b8ba2f2.chunk.js",
+    "static/js/2.8b8ba2f2.chunk.js.map": "/static/js/2.8b8ba2f2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a840b4a0fe254641ed6c4c706d81e5cd.js": "/precache-manifest.a840b4a0fe254641ed6c4c706d81e5cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0ef8c052.chunk.css.map": "/static/css/main.0ef8c052.chunk.css.map",
+    "static/js/2.8b8ba2f2.chunk.js.LICENSE.txt": "/static/js/2.8b8ba2f2.chunk.js.LICENSE.txt",
+    "static/media/switch-mode.scss": "/static/media/sun.e1bb2cc7.svg",
+    "static/media/github.a112a001.svg": "/static/media/github.a112a001.svg",
+    "static/media/linkedin.89dcd695.svg": "/static/media/linkedin.89dcd695.svg",
+    "static/media/mail.bfe8a6b5.svg": "/static/media/mail.bfe8a6b5.svg",
+    "static/media/react.e56ab6de.svg": "/static/media/react.e56ab6de.svg",
+    "static/media/static_assets.9331f972.svg": "/static/media/static_assets.9331f972.svg",
+    "static/media/twitter.88c38bdc.svg": "/static/media/twitter.88c38bdc.svg",
+    "static/media/wordpress-icon.4dab8248.svg": "/static/media/wordpress-icon.4dab8248.svg",
+    "static/media/wordpress.f6368b3a.svg": "/static/media/wordpress.f6368b3a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.851c6293.js",
+    "static/js/2.8b8ba2f2.chunk.js",
+    "static/css/main.0ef8c052.chunk.css",
+    "static/js/main.3a8ebcea.chunk.js"
+  ]
+}
